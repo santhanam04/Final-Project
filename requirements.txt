@@ -1,11 +1,2 @@
-mysql-connector-python
-pandas
-scipy
-matplotlib
-seaborn
-numpy
-scikit-learn
-joblib
-tensorflow
 streamlit
-keras
+
