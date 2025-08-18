@@ -1,16 +1,11 @@
-import mysql.connector 
-import pandas as pd
-import os
-from scipy.stats import zscore
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-from sklearn.preprocessing import StandardScaler
-import joblib
-from sklearn.model_selection import train_test_split
-import tensorflow as tf
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from sklearn.metrics import confusion_matrix, classification_report
-import streamlit as st
-from tensorflow import keras
-import keras
+mysql-connector-python
+pandas
+scipy
+matplotlib
+seaborn
+numpy
+scikit-learn
+joblib
+tensorflow
+streamlit
+keras
