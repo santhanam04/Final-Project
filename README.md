@@ -36,12 +36,12 @@ pip install -r requirements.txt
 
 ```bash
 #Temporary running
-streamlit run final1.py
+streamlit run final.py
 ```
 
 ```bash
 #Permanent running
-nohup streamlit run final1.py
+nohup streamlit run final.py
 ```
 
 Note: Streamlit runs on this port: 8501
