@@ -12,41 +12,36 @@ sudo apt update
 ```
 
 ```bash
-sudo apt-get update
-```
-
-```bash
 sudo apt upgrade -y
 ```
 
 ```bash
-sudo apt install git curl unzip tar make sudo vim wget -y
+sudo apt install git curl unzip tar make vim wget python3-pip python3-venv build-essential python3-dev -y
 ```
 
 ```bash
-sudo apt install git curl unzip tar make sudo vim wget -y
+git clone "YOUR-REPOSITORY-URL"
+cd YOUR-REPO-NAME
 ```
 
 ```bash
-git clone "Your-repository"
+python3 -m venv env
+source env/bin/activate
 ```
 
 ```bash
-sudo apt install python3-pip
-```
-
-```bash
-pip3 install -r requirements.txt
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
 ```
 
 ```bash
 #Temporary running
-python3 -m streamlit run app.py
+streamlit run final1.py
 ```
 
 ```bash
 #Permanent running
-nohup python3 -m streamlit run app.py
+nohup streamlit run final1.py
 ```
 
 Note: Streamlit runs on this port: 8501
