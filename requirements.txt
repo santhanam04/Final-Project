@@ -6,8 +6,5 @@ seaborn
 numpy
 scikit-learn
 joblib
-tensorflow-cpu-nightly
-streamlit
 keras
-
-
+streamlit
